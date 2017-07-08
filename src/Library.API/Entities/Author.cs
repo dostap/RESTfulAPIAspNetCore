@@ -6,6 +6,8 @@ namespace Library.API.Entities
 {
     public class Author
     {
+        //with data annotations
+        //useful for validation
         [Key]
         public Guid Id { get; set; }
 
